@@ -4,7 +4,7 @@ int main(){
     int limiteSuperior, limiteInferior;
     int quantidade = 0;
     for(int i = 0; i < 10; i++){
-        printf("Digite a temperatura em °C: ");
+        printf("Digite a temperatura %d em °C: ", i + 1);
         scanf("%d", &temperatura[i]);
 
     }
@@ -22,6 +22,11 @@ int main(){
     }
     
    }
+    printf("\nQuantidade de medições dentro da faixa: %d\n", quantidade);
+
+
+}
+
     printf("\nQuantidade de medições dentro da faixa: %d\n", quantidade);
 
 
